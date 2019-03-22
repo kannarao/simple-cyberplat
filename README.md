@@ -88,9 +88,11 @@ cyberplat.payCheck(payload, (statusData)=> {
 
 # Methods
 
+```
   payCheck: To check recharge/bill before doing actual
   pay: To recharge/bill
   payStatus: To check status of recharge/bill
+```
 
 
 
