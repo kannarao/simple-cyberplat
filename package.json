@@ -1,0 +1,24 @@
+{
+  "name": "simple-cyberplat",
+  "version": "1.0.8",
+  "description": "cyberplat integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyberplat"
+  ],
+  "author": "<kannaraokarnam123@gmail.com> (http://kannarao.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "qs": "^6.6.0",
+    "qs-iconv": "^1.0.4",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "url",
+    "url": "https://github.com/kannarao/simple-cyberplat.git"
+  }
+}
