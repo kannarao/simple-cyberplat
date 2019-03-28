@@ -64,6 +64,11 @@ const Cyberplat = function (ops) {
     go('payStatus', obj, callback);
   };
 
+  // balance
+  const balance = function (obj, callback) {
+    go('balance', obj, callback);
+  };
+
   return {
     payCheck,
     pay,
