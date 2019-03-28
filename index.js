@@ -73,6 +73,7 @@ const Cyberplat = function (ops) {
     payCheck,
     pay,
     payStatus,
+    balance,
     Errors
   };
 }
