@@ -47,7 +47,7 @@ const Cyberplat = function (ops) {
     }
 
     request(options, function (e, r, body) {
-      callback(parser.stringToObj(e, r, body));
+      callback(e, r, parser.stringToObj(body));
     })
   }
 
