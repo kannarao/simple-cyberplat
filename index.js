@@ -71,12 +71,33 @@ const Cyberplat = function (ops) {
     go('balance', obj, callback);
   };
 
+  
+  /****************************** UPI ******************************/
+
+  // checking payment before pay
+  const vpaValidation = function (obj, callback) {        
+    go('vpaValidation', obj, callback);
+  };
+
+  // paying
+  const upiPay = function (obj, callback) {        
+    go('upiPay', obj, callback);
+  };
+
+  // checking payment after pay
+  const upiPayStatus = function (obj, callback) {        
+    go('upiPayStatus', obj, callback);
+  };
+
   return {
     payCheck,
     pay,
     payStatus,
     balance,
-    Errors
+    Errors,
+    vpaValidation,
+    upiPay,
+    upiPayStatus
   };
 }
 
